@@ -2,11 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2024-08-20T18:01:48.761Z
+date: 2024-08-23T02:57:53.232Z
 tags: 
 editor: markdown
-dateCreated: 2024-08-20T16:49:07.774Z
+dateCreated: 2024-08-23T02:50:22.095Z
 ---
+
+![sitelogo_200x200.png](/sitelogo_200x200.png){.align-center}
 
 Over the years and evolutions of running my seedbox, I have never come across a guide that gets into full automation of your media. Just bits a pieces of information on how to set it up which makes it hard for just anyone to get working properly. Hope to create and maintain this wiki with the information I have gathered from Google, Reddit, GitHub, and personal experience over the years to help others set this up correctly and more importantly in a SECURE way!
 
