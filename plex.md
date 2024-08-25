@@ -2,7 +2,7 @@
 title: Plex
 description: 
 published: true
-date: 2024-08-25T05:34:44.593Z
+date: 2024-08-25T14:38:09.499Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T02:50:23.886Z
@@ -64,6 +64,24 @@ Launch a browser and go to the IP address and port of Plex. You'll be greeted by
 
 ## Libraries
 
+Right click the PmsService tray icon in the task bar and go to "Service Settings". Click "Drive Mappings" and add a new entry from the bottom + button. Enter the UNC path of your server storing the media, can leave the default drive letter of Z.
+
+> The user set to run Plex as a service MUST have access to the UNC path. There is no way to set separate credentials. The drive will not mount correctly if you do not allow access.
+{.is-warning}
+
+![plex-config-4.png](/assets/plex/plex-config-4.png) ![plex-config-5.png](/assets/plex/plex-config-5.png)
+
+Save the settings in PmsService and go back to the Plex GUI to add the libraries.
+
+![plex-config-6.png](/assets/plex/plex-config-6.png) ![plex-config-7.png](/assets/plex/plex-config-7.png) ![plex-config-8.png](/assets/plex/plex-config-8.png)
+
+PLACEHOLDER
+
+![plex-config-9.png](/assets/plex/plex-config-9.png) ![plex-config-10.png](/assets/plex/plex-config-10.png) ![plex-config-11.png](/assets/plex/plex-config-11.png)
+
+![plex-config-12.png](/assets/plex/plex-config-12.png)
+
+Plex is configured and ready to start ingesting your media!
 
 # Tuning
 > WIP
