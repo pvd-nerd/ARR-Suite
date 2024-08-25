@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-25T03:48:05.290Z
+date: 2024-08-25T04:16:04.107Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -35,6 +35,11 @@ Close installer and reboot the Windows server. Reconnect via RDP once it is back
 
 ## Container Setup 
 1. Create a new volume called overseerr.
+2. Open terminal at the bottom of the GUI (If you don't see it enable it in the settings).
+```
+wget -o overseerr-compose.yml https://raw.githubusercontent.com/pvd-nerd/ARR-Suite/main/scripts/overseerr-compose.yml
+
+```
 
 
 
