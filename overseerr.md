@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-25T19:53:35.269Z
+date: 2024-08-25T20:58:30.109Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -11,7 +11,7 @@ dateCreated: 2024-08-25T03:28:31.836Z
 # Content
 1. Basic Setup
 2. Overseerr Container
-3. Configuration
+3. Sonarr & Radarr Integration
 4. Setup NginX Proxy Manager (NPM)
 
 > If you already have a Docker host or swarm set up for public access I would recommend using that to deploy the containers instead. Docker for Windows has limitations but will work.
@@ -62,3 +62,10 @@ Select both libraries you previously created (Sync libraries if you do not see t
 Skip the Radarr and Sonarr settings for now, click Finish Setup.
 
 ![overseerr-config-4.png](/assets/overseerr/overseerr-config-4.png)
+
+Go to Settings > General and fill out these two feilds -- the URL you want to use to access Overseerr and enable reverse proxy support. Click Save Changes at the bottom then go to the Docker GUI and restart the service. 
+
+# Sonarr & Radarr Integration
+
+
+
