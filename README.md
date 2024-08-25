@@ -8,4 +8,4 @@ editor: markdown
 dateCreated: 2024-08-23T02:50:20.181Z
 ---
 
-Go to wiki: https://github.com/pvd-nerd/ARR-Suite/wiki
+Still a work in progress but the wiki is live at https://arr.passthebits.com
