@@ -2,7 +2,7 @@
 title: Plex
 description: 
 published: true
-date: 2024-08-25T14:38:09.499Z
+date: 2024-08-25T14:43:22.819Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T02:50:23.886Z
@@ -71,13 +71,16 @@ Right click the PmsService tray icon in the task bar and go to "Service Settings
 
 ![plex-config-4.png](/assets/plex/plex-config-4.png) ![plex-config-5.png](/assets/plex/plex-config-5.png)
 
-Save the settings in PmsService and go back to the Plex GUI to add the libraries.
+Save the settings in PmsService and go back to the Plex GUI. Navigate to the libraries tab and click "Add Libary". 
+Enter the name of the libary (this is how it will show up in Plex for everyone), enter the folder Z:\movies, and you can leave all the default advanced settings. Click "Add Libary" to save the folder.
 
 ![plex-config-6.png](/assets/plex/plex-config-6.png) ![plex-config-7.png](/assets/plex/plex-config-7.png) ![plex-config-8.png](/assets/plex/plex-config-8.png)
 
-PLACEHOLDER
+Enter the name of the libary (this is how it will show up in Plex for everyone), enter the folder Z:\shows, and you can leave all the default advanced settings. Click "Add Libary" to save the folder.
 
 ![plex-config-9.png](/assets/plex/plex-config-9.png) ![plex-config-10.png](/assets/plex/plex-config-10.png) ![plex-config-11.png](/assets/plex/plex-config-11.png)
+
+Both of your libraries should show up like below.
 
 ![plex-config-12.png](/assets/plex/plex-config-12.png)
 
