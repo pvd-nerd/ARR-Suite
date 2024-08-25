@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  overseerr:
+    image:  lscr.io/linuxserver/overseerr:latest
+    container_name: overseerr 
+	  restart: unless-stopped
+    environment:
+      - TZ=UTC
+    ports:
+      - 5055:5055
+    volumes:
+      - overseerr:/config
+
+volumes:
+  overseerr:
+    name: overseerr
+    external: false
