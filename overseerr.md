@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-25T15:41:38.755Z
+date: 2024-08-25T19:53:35.269Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -45,4 +45,20 @@ docker-compose -f overseerr-compose.yml up -d
 
 ![docker-install-4.png](/assets/overseerr/docker-install-4.png) ![docker-install-5.png](/assets/overseerr/docker-install-5.png)
 
+## Container Configuration
 
+Open a browser on the host or remote host and go to http://IPADDR:5055. Sign in with your Plex account that owns the media server. 
+
+![overseerr-config-1.png](/assets/overseerr/overseerr-config-1.png)
+
+Select your Plex server from the list (If you don't see it refresh the list). Use the plex.direct hostname and enable SSL. Save Changes to move on.
+
+![overseerr-config-2.png](/assets/overseerr/overseerr-config-2.png)
+
+Select both libraries you previously created (Sync libraries if you do not see them). Press "Start Scan" to make sure it doesn't error out. Continue to next page.
+
+![overseerr-config-3.png](/assets/overseerr/overseerr-config-3.png)
+
+Skip the Radarr and Sonarr settings for now, click Finish Setup.
+
+![overseerr-config-4.png](/assets/overseerr/overseerr-config-4.png)
