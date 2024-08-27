@@ -1,4 +1,4 @@
-version: '3'
+---
 
 services:
   overseerr:
@@ -7,12 +7,13 @@ services:
     restart: unless-stopped
     environment:
       - TZ=UTC
-    ports:
-      - 5055:5055
     volumes:
       - overseerr:/config
 
 volumes:
   overseerr:
     name: overseerr
-    external: false
+
+networks:
+  default:
+    name: int_dock_net
