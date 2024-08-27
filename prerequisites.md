@@ -2,10 +2,10 @@
 title: Prerequisites
 description: 
 published: true
-date: 2024-08-20T18:21:50.694Z
+date: 2024-08-27T02:32:13.435Z
 tags: 
 editor: markdown
-dateCreated: 2024-08-20T18:21:49.497Z
+dateCreated: 2024-08-23T02:50:25.667Z
 ---
 
 A couple of topics are not covered in this wiki and must be completed beforehand, there are no plans just because of the vastly different deployment options, such as hardware and storage. This should run on anything from a Raspberry Pi, a dedicated host, or a fully built-out lab once you have all this completed move on to the next topic.
@@ -16,10 +16,12 @@ A couple of topics are not covered in this wiki and must be completed beforehand
 # Networking
 - Set up static IP addresses and DNS servers on both servers.
 - Recommend a DMZ subnet isolated from the rest of your network.
-- The router/firewall must be able to port forward (Only required if you want Plex and Overseerr publicly accessible outside your network)
+- The router/firewall must be able to port forward.
+- Purchase or acquire a domain name.
+- Free Cloudflare account.
 
 # Hardware
-Hardware specifics and Ubuntu Desktop/Windows Server installation are not covered in this wiki due to the vastly different setups and multiple install options. There is plenty of documentation already available on how to install Ubuntu and Windows Server. This should run on anything from a Raspberry Pi to a fully built-out hypervisor lab.
+Hardware specifics and Ubuntu Desktop/Windows Server installation are not covered in this wiki due to the vastly different setups and multiple install options. There is plenty of documentation already available on how to install Ubuntu Desktop and Windows Server.
 
 ## Seedbox
 - Fresh up-to-date install of Ubuntu Desktop 22.04 LTS 64-bit (Recommend minimum installation).
@@ -35,10 +37,10 @@ Hardware specifics and Ubuntu Desktop/Windows Server installation are not covere
 - Discrete GPU for Plex encoding on the media server (Recommended).
 
 # Storage
-Storage specifics are also not covered in this wiki for the same reason as hardware, there are too many different options and plenty of documentation available. Can use a single drive mounted directly to the host or a NFS mount from a NAS on the network. Options are endless :)
+Storage specifics are also not covered in this wiki for the same reason as hardware, there are too many different options and plenty of documentation available. Can use a single drive mounted directly to the host or a NFS mount from a NAS on the network. Options are endless ;)
 
-- Additional disks must be mounted by the host under the directory /mnt/media
-- /mnt/media must have the following folder structure.
+- Additional disks must be mounted by the Ubuntu Desktop host under the directory /mnt/media
+- /mnt/media must have the following folder structure:
 
 ```
 /mnt/media/
