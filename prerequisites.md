@@ -2,7 +2,7 @@
 title: Prerequisites
 description: 
 published: true
-date: 2024-08-27T02:32:13.435Z
+date: 2024-08-27T02:32:59.283Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T02:50:25.667Z
@@ -30,7 +30,7 @@ Hardware specifics and Ubuntu Desktop/Windows Server installation are not covere
 - Additional storage is mounted to the file system under /mnt/media.
 
 ## Media Server
-- Fresh up-to-date install of Windows Server 2022 (Can also use 2016 or 2019).
+- Fresh up-to-date install of Windows Server 2022 (Can also use 2016/2019 or Windows 10/11).
 - Minimum of 4 cores/vcpu & 8 GB of RAM.
 - Minimum of 60GB SSD/NVMe OS disk.
 - Additional storage is mounted as a drive in Windows.
