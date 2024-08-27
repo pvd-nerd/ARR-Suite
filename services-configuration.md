@@ -2,7 +2,7 @@
 title: Services Configuration
 description: 
 published: true
-date: 2024-08-27T03:28:40.818Z
+date: 2024-08-27T03:29:10.060Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-23T02:50:27.528Z
@@ -35,6 +35,9 @@ On the right hand ride of the GUI right click the All categories and click add c
 
 # Radarr
 
+
 # Prowlarr
 
+
 # Unpackerr
+
