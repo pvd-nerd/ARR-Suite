@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-27T02:37:14.532Z
+date: 2024-08-27T02:37:52.191Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -44,7 +44,7 @@ md $HOME/.docker/npm; cd $HOME/.docker/npm
 wget -o npm-compose.yml https://raw.githubusercontent.com/pvd-nerd/ARR-Suite/main/scripts/npm-compose.yml
 ```
 
-> Edit the compose file and change the DB_MYSQL_PASSWORD & MYSQL_ROOT_PASSWORD enviroments before starting the container!
+> Edit the compose file and change the DB_MYSQL_PASSWORD & MYSQL_ROOT_PASSWORD enviroments before starting the containers!
 {.is-warning}
 
 ```
