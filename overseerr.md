@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-27T02:36:07.824Z
+date: 2024-08-27T02:37:14.532Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -11,8 +11,8 @@ dateCreated: 2024-08-25T03:28:31.836Z
 # Content
 1. [Basic Setup](https://arr.passthebits.com/en/overseerr#basic-setup)
 2. [Docker Setup](https://arr.passthebits.com/en/overseerr#docker-setup)
-3. NginX Proxy Manager (NPM) Configuration
-4. Overseerr Configuration
+3. [NginX Proxy Manager (NPM) Configuration](https://arr.passthebits.com/en/overseerr#nginx-proxy-manager-npm-configuration)
+4. [Overseerr Configuration](https://arr.passthebits.com/en/overseerr#overseerr-configuration)
 
 > If you already have a Docker host or swarm set up for public access I would recommend using that to deploy the containers instead. Docker for Windows has limitations but will work. 
 {.is-warning}
