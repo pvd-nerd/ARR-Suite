@@ -1,11 +1,11 @@
 ---
 title: VPN Setup
 description: 
-published: true
-date: 2024-08-20T18:42:32.732Z
+published: false
+date: 2024-08-27T03:34:59.068Z
 tags: 
 editor: markdown
-dateCreated: 2024-08-20T18:38:33.680Z
+dateCreated: 2024-08-23T02:50:31.055Z
 ---
 
 > Private Internet Access (PIA) has been my go to VPN proivder for many years. I will not likely document other VPN providers unless someones wants to contribute. 
