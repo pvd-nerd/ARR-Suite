@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-27T02:37:52.191Z
+date: 2024-08-27T02:38:37.053Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -17,6 +17,7 @@ dateCreated: 2024-08-25T03:28:31.836Z
 > If you already have a Docker host or swarm set up for public access I would recommend using that to deploy the containers instead. Docker for Windows has limitations but will work. 
 {.is-warning}
 
+---
 
 # Basic Setup
 - Make sure the host has a static IP address, DNS servers, and hostname.
