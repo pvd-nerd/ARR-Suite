@@ -2,15 +2,15 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-27T02:24:50.202Z
+date: 2024-08-27T02:36:07.824Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
 ---
 
 # Content
-1. Basic Setup
-2. Docker Container Setup
+1. [Basic Setup](https://arr.passthebits.com/en/overseerr#basic-setup)
+2. [Docker Setup](https://arr.passthebits.com/en/overseerr#docker-setup)
 3. NginX Proxy Manager (NPM) Configuration
 4. Overseerr Configuration
 
@@ -93,7 +93,7 @@ PS C:\Users\Administrator\.docker\overseerr>
 ```
 
 
-# NginX Proxy Manager (NPM) Setup
+# NginX Proxy Manager (NPM) Configuration
 Open a browser on the host or a remote host and go to http://IPADDR:81. Login with the default username **admin@example.com** and password **changeme**. You will be prompted to udate the username and password on inital login.
 
 ![npm-config-1.png](/assets/overseerr/npm-config-1.png) ![npm-config-2.png](/assets/overseerr/npm-config-2.png)
