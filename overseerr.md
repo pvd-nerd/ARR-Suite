@@ -2,7 +2,7 @@
 title: Overseerr
 description: 
 published: true
-date: 2024-08-27T02:38:37.053Z
+date: 2024-08-27T02:46:11.061Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-25T03:28:31.836Z
@@ -110,7 +110,7 @@ Overseerr should be available at http://overseerr.example.com from any computer 
 
 
 # Overseerr Configuration
-Open a browser on the host or remote host and go to http://IPADDR:5055. Sign in with your Plex account that owns the media server. 
+Open a browser on the host or remote host and go to http://overseerr.example.com. Sign in with your Plex account that owns the media server. 
 
 ![overseerr-config-1.png](/assets/overseerr/overseerr-config-1.png)
 
